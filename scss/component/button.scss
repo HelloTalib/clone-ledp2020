@@ -1,0 +1,17 @@
+.btn {
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 6px 20px 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: $btn_color;
+    border: 1px solid transparent;
+    color: #fff;
+    margin-top: 0;
+    &:hover {
+        border: 1px solid $btn_color;
+        background: transparent;
+        color: $btn_color !important;
+    }
+}

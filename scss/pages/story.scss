@@ -1,0 +1,50 @@
+/* ========================
+      !story
+==========================*/
+#story {
+    background: $theme_color_primary;
+    color: $theme_color_secondary;
+    text-align: center;
+    margin: 0 auto;
+}
+.story {
+    &__title {
+        &__before {
+            margin: 55px 0 5px 0;
+        }
+        &__main {
+            font-size: 35px;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        &__after {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    }
+    &__image {
+        margin-bottom: 30px;
+        min-height: 350px;
+        position: relative;
+        overflow: hidden;
+        img {
+            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+        }
+        &:hover {
+            img {
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+    }
+    &__btn {
+        a {
+            padding: 0px 0px 5px 0px;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+/* ========================
+      !about
+==========================*/
+.about {
+    &__top {
+        margin-bottom: 30px;
+        &__left {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .title {
+                &__before {
+                    color: #656565;
+                    font-size: 18px;
+                    margin: 0;
+                }
+                &__main {
+                    color: #333;
+                    font-size: 35px;
+                    font-weight: bold;
+                    span {
+                        color: #333;
+                        font-size: 45px;
+                        font-weight: bold;
+                    }
+                }
+                &__after {
+                    color: #e49d64;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &__right {
+            overflow: hidden;
+            position: relative;
+            height: 450px;
+            img {
+                transition: all 0.3s ease-out;
+                -webkit-transition: all 0.3s ease-out;
+                -moz-transition: all 0.3s ease-out;
+                -ms-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
+            }
+            &::before {
+                @include animation_before;
+            }
+            &:hover {
+                &::before {
+                    opacity: 0;
+                }
+                img {
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    &__bottom {
+        .image {
+            position: relative;
+            overflow: hidden;
+            img {
+                height: 300px;
+                transition: all 0.3s ease-out;
+                -webkit-transition: all 0.3s ease-out;
+                -moz-transition: all 0.3s ease-out;
+                -ms-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
+            }
+            &::before {
+                @include animation_before;
+            }
+            &:hover {
+                &::before {
+                    opacity: 0;
+                }
+                img {
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+            }
+        }
+        &__content {
+            .card__two {
+                position: relative;
+                .badge {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 999;
+                    padding: 0px 35px;
+                    background: #2dcb8e;
+                    border-radius: 0px;
+                    p {
+                        margin-top: 10px;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    &__btn {
+        .btn {
+            width: 180px;
+            word-spacing: 5px;
+        }
+    }
+}

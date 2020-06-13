@@ -1,319 +1,1367 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <title>MD TALIB</title>
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HTML-KIT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+
+    <!-- vendor -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/css/animate.min.css">
+    <link rel="stylesheet" href="vendor/css/magnific-popup.css">
+    <link rel="stylesheet" href="vendor/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="vendor/css/meanmenu.css">
+    <link rel="stylesheet" href="vendor/css/slick.css">
+    <!-- assets -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- header  start-->
-<header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarContent" aria-controls="navbarContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#story">Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#news">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<!-- header end -->
-<!-- hero section start -->
-<section id="hero" class="section__area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="hero__content">
-                    <div class="hero__title">
-                        <h2 class="text-light display-3 mb-3">Best Recreational
-                            <br> Boat Rentals</h2>
-                    </div>
-                    <div class="hero__btn btn__primary">
-                        <a href="#featured" class="btn">Browse Boats</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- info section start  -->
-<section id="info" class="section__area text-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="info__single">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span class="ml-2">361 ocean drive, Baypoint, NC</span>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="info__single">
-                    <i class="fa fa-phone"></i>
-                    <span class="ml-2">Call Us; 999-777-444</span>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="info__single">
-                    <i class="fa fa-envelope"></i>
-                    <span class="ml-2">example@example.com</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- info section end  -->
 
-<!-- about section start -->
-<section id="about" class="about">
-    <div class="container">
-        <div class="about__top">
-            <div class="row ">
-                <div class="col-md-6">
-                    <div class="about__top__left">
-                        <div class="title">
-                            <p class="title__before">Featured Boats</p>
-                            <h2 class="title__main">Fandango 12<span
-                                    class="text-bold">8HB</span></h2>
-                            <p class="title__after">From $859/day</p>
-                        </div>
-                        <div class="about__info">
-                            <p class="text-muted">Lorem ipsum dolor sit amet
-                                consectetur
-                                adipisicing elit. Ad velit perspiciatis culpa!
-                                Illo soluta
-                                quibusdam aperiam quasi. Placeat totam animi
-                                adipisci maxime
-                                doloribus fuga fugiat vero velit? Minima, ea
-                                itaque?</p>
-                        </div>
-                        <div class="about__btn text-uppercase">
-                            <a href="#story" class="btn">More Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about__top__right">
-                        <img class="w-100" src="img/featured/featured_1-min.jpg"
-                            alt="featured image one">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="about__bottom">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="about__bottom__content">
-                        <div class="card__one">
-                            <div class="image">
-                                <img class="w-100 img-fluid"
-                                    src="img/featured/featured_1-min.jpg"
-                                    alt="featured image one">
-                            </div>
-                            <div class="card__text">
-                                <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="about__bottom__content">
-                        <div class="card__two">
-                            <div class="badge">
-                                <p>Sell!</p>
-                            </div>
-                            <div class="image">
-                                <img class="w-100 img-fluid"
-                                    src="img/featured/featured_2-min.jpg"
-                                    alt="featured image two">
-                            </div>
-                            <div class="card__text">
-                                <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="about__bottom__content">
-                        <div class="card__three">
-                            <div class="image">
-                                <img class="w-100 img-fluid"
-                                    src="img/featured/featured_3-min.jpg"
-                                    alt="featured image three">
-                            </div>
-                            <div class="card__text">
-                                <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- about section end -->
-<!-- story section start -->
-<section id="story" class="story">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <div class="story__title">
-                    <p class="story__title__before">Lorem, ipsum dolor.</p>
-                    <h2 class="story__title__main">Our Story</h2>
-                    <p class="story__title__after">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Tempore similique beatae
-                        dolorum, illo temporibus id porro quae tenetur minima
-                        nobis eveniet reprehenderit, harum dolorem cumque aut
-                        omnis sequi, consequatur provident?</p>
-                </div>
-                <div class="story__image">
-                    <img class="w-100 img-fluid" src="img/story-min.jpg"
-                        alt="story image">
-                </div>
-                <div class="story__btn">
-                    <a href="#boats" class="btn">See More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- story section end -->
-<!-- news section start -->
-<section id="news" class="news">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-2">
-                <div class="news__title">
-                    <p class="news__title__before">Lorem, ipsum dolor.</p>
-                    <h2 class="news__title__main">Type of Boats</h2>
-                    <p class="news__title__after">Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Est odio deleniti
-                        praesentium accusantium libero non repellat quia
-                        cupiditate? Doloremque in iure aspernatur debitis soluta
-                        commodi deleniti aperiam aut, tempora itaque.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="news__card">
-                    <div class="news__card__image">
-                        <img class="w-100 img-fluid"
-                            src="img/featured/featured_4-min.jpg"
-                            alt="boats image">
-                    </div>
-                    <div class="news__card__text">
-                        <i
-                            class="fas fa-american-sign-language-interpreting"></i>
-                        <h3 class="heading">Fishing</h3>
-                        <p class="info">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Quidem voluptates
-                            ratione
-                            velit dignissimos quo nostrum voluptatem, delectus
-                            quam
-                            expedita quis?</p>
-                    </div>
-                    <div class="news__card__btn">
-                        <a href="#" class="btn-custom">more info</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="news__card">
-                    <div class="news__card__image">
-                        <img class="w-100 img-fluid"
-                            src="img/featured/featured_5-min.jpg"
-                            alt="boats image">
-                    </div>
-                    <div class="news__card__text">
-                        <i class="fab fa-jedi-order"></i>
-                        <h3 class="heading">Sall Boats</h3>
-                        <p class="info">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Quidem voluptates
-                            ratione
-                            velit dignissimos quo nostrum voluptatem, delectus
-                            quam
-                            expedita quis?</p>
-                    </div>
-                    <div class="news__card__btn">
-                        <a href="#" class="btn-custom">more info</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="news__card">
-                    <div class="news__card__image">
-                        <img class="w-100 img-fluid"
-                            src="img/featured/featured_1-min.jpg"
-                            alt="boats image">
-                    </div>
-                    <div class="news__card__text">
-                        <i class="fab fa-accusoft"></i>
-                        <h3 class="heading">Yachts</h3>
-                        <p class="info">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Quidem voluptates
-                            ratione
-                            velit dignissimos quo nostrum voluptatem, delectus
-                            quam
-                            expedita quis?</p>
-                    </div>
-                    <div class="news__card__btn">
-                        <a href="#" class="btn-custom">more info</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- news section end -->
-
-<!-- script file start -->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<!-- script file end -->
 
 <body>
+    <!-- application content here -->
+
+    <body data-spy="scroll" data-target="#data-scroll" data-hijacking="on"
+        data-animation="scaleDown">
+
+        <!-- STRAT NAVBAR -->
+        <nav
+            class="navbar navbar-expand-lg fixed-top sticky navbar-white navbar-custom sticky-dark">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand logo text-uppercase"
+                    href="javascript:void(0)">
+                    <img src="assets/img/logo.png" style="width: 170px;" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fab fa-navigation-menu"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav navbar-center" id="mySidenav">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#course" class="nav-link">কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#instruction" class="nav-link">নিয়মাবলী</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testi" class="nav-link">মতামত</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#faq" class="nav-link">জিজ্ঞাসিত
+                                প্রশ্নাবলী</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">যোগাযোগ</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button ml-auto">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <button type="button"
+                                    onclick="window.open('https://ledp.ictd.gov.bd/login', '_blank')"
+                                    class="btn btn-success navbar-btn btn-rounded waves-effect waves-light">লগইন
+                                    করুন</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!--START HOME-->
+        <section
+            class="banner-area banner-slider-active-with-navigation cr-slider-navigation-1"
+            id="home">
+            <!-- Single Banner -->
+            <div class="single-banner"
+                style="background-image: url('assets/img/slider/slider-01.png');">
+            </div>
+            <div class="single-banner"
+                style="background-image: url('assets/img/slider/slider-02.png');">
+            </div>
+            <div class="single-banner"
+                style="background-image: url('assets/img/slider/slider-03.png');">
+            </div>
+            <div class="single-banner"
+                style="background-image: url('assets/img/slider/slider-04.png');">
+            </div>
+        </section>
+        <!--END HOME-->
+
+        <section class="section bg-light" id="features">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-2 order-lg-1">
+                        <div class="features-img mx-auto mr-lg-0">
+                            <img src="assets/img/announcement.png"
+                                alt="macbook image" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 order-1 order-lg-2">
+                        <div class="features-box mt-5 mt-lg-0">
+                            <h3>নোটিশ</h3>
+                            <ul
+                                class="text-muted list-unstyled margin-t-30 notice-item-list">
+                                <li class="text-truncate">
+                                    <a href="upload/1587471716-2020-04-21-5e9ee564ceb68.pdf"
+                                        download="1587471716-2020-04-21-5e9ee564ceb68.pdf"><i
+                                            class="far fa-file-alt mr-2"></i>
+                                        রেজিষ্ট্রেশন সংক্রান্ত জরুরী নোটিশ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="course">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">কোর্স</h1>
+                        <div class="section-title-border margin-t-20"></div>
+                        <p class="section-subtitle text-muted text-center font-secondary padding-t-30"
+                            style="font-size: 18px;">মুজিববর্ষ সামনে রেখে শুরু
+                            হচ্ছে
+                            লার্নিং অ্যান্ড আর্নিং ডেভেলপমেন্ট প্রশিক্ষণ-২০২০।
+                            সারা
+                            দেশে ৬৪টি জেলা ও ৪৯২টি উপজেলায় এই কার্যক্রম চলবে। ৪০
+                            হাজার তরুণ-তরুণীকে এ প্রকল্পের আওতায় দক্ষ মানব সম্পদ
+                            হিসেবে গড়ে তোলা হবে।</p>
+                    </div>
+                </div>
+                <div class="row margin-t-50">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="team-box text-center">
+                            <div class="team-wrapper">
+                                <div class="team-member">
+                                    <img alt=""
+                                        src="assets/img/graphic-design.png"
+                                        class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <h4 class="team-name">গ্রাফিক্স ডিজাইন</h4>
+                            <div class="fot-button">
+                                <a href="https://ledp.ictd.gov.bd/registration"
+                                    target="_blank"
+                                    class="btn btn-sm-custom btn-outline-success waves-effect waves-light">নিবন্ধন
+                                    করুন
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="team-box text-center">
+                            <div class="team-wrapper">
+                                <div class="team-member">
+                                    <img alt="" src="assets/img/web-design.png"
+                                        class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <h4 class="team-name">ওয়েব ডিজাইন অ্যান্ড
+                                ডেভেলপমেন্ট
+                            </h4>
+                            <div class="fot-button">
+                                <a href="https://ledp.ictd.gov.bd/registration"
+                                    target="_blank"
+                                    class="btn btn-sm-custom btn-outline-success waves-effect waves-light">নিবন্ধন
+                                    করুন
+                                    <i
+                                        class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="team-box text-center">
+                            <div class="team-wrapper">
+                                <div class="team-member">
+                                    <img alt=""
+                                        src="assets/img/digital-marketing.png"
+                                        class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <h4 class="team-name">ডিজিটাল মার্কেটিং</h4>
+                            <div class="fot-button">
+                                <a href="https://ledp.ictd.gov.bd/registration"
+                                    target="_blank"
+                                    class="btn btn-sm-custom btn-outline-success waves-effect waves-light">নিবন্ধন
+                                    করুন
+                                    <i
+                                        class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-web-desc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-white mb-3">নিবন্ধন এর আর মাত্র বাকি
+                        </h2>
+                        <div class="count-area">
+                            <p class="padding-t-15 home-desc mx-auto"
+                                id="timer">
+                            </p>
+                        </div>
+                        <a href="javacript:void(0)"
+                            class="btn btn-bg-white margin-t-30 waves-effect waves-light">নিবন্ধন
+                            করুন</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">কোর্স এক্সট্রা
+                        </h1>
+                        <div class="section-title-border margin-t-20"></div>
+                    </div>
+                </div>
+
+                <div class="row margin-t-20">
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/review-class.svg"
+                                        alt="">
+                                    <h4>রিভিউ ক্লাস</h4>
+                                    <p class="pt-2 text-muted">২০০ ঘন্টার
+                                        ট্রেইনিং
+                                        সময়ের পর প্রকল্পের শতভাগ সাফল্য নিশ্চিত
+                                        করতে
+                                        “রিভিউ ক্লাস” এর আয়োজন করা হবে। </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/special-session.svg"
+                                        alt="">
+                                    <h4>স্পেশাল সেশন</h4>
+                                    <p class="pt-2 text-muted">এই প্রকল্পের ২ টি
+                                        মূল্যায়ন পরীক্ষা থেকে মেধাবী
+                                        শিক্ষার্থীদের
+                                        নিয়ে মোট ৮৪ টি “স্পেশাল ব্যাচ” প্রণয়ন
+                                        করা
+                                        হবে যারা স্পেশাল সেশন/ক্লাস করার সুযোগ
+                                        পাবে।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/marketplace-review.svg"
+                                        alt="">
+                                    <h4>মার্কেটপ্লেস রিভিউ</h4>
+                                    <p class="pt-2 text-muted">প্রতিটি
+                                        শিক্ষার্থীকে
+                                        দক্ষ এবং স্বাবলম্বী করে গড়ে তোলার
+                                        লক্ষ্যে
+                                        আউটসোর্সিং মার্কেটে তাদের আইডি/একাউন্ট
+                                        প্রকল্প কর্তৃপক্ষ থেকে রিভিউ করা হবে।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/convenience.svg"
+                                        alt="">
+                                    <h4>সুবিধা অনুযায়ী শিফট</h4>
+                                    <p class="pt-2 text-muted">মোট আবেদনকারী
+                                        থেকে ৬৪
+                                        জেলায় চূড়ান্তভাবে প্রায় ৪০ হাজার জন
+                                        শিক্ষার্থী এই প্রশিক্ষণ কার্যক্রমে
+                                        অংশগ্রহণ
+                                        করে স্বাবলম্বী হওয়ার সুযোগ পাবে তবে উক্ত
+                                        ব্যাচে সুবিধা অনুযায়ী ব্যাচ/শিফট
+                                        পরিবর্তন
+                                        করার সুযোগ নেই।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/traning-lab.svg"
+                                        alt="">
+                                    <h4>স্পেশাল ট্রেইনিং ল্যাব</h4>
+                                    <p class="pt-2 text-muted">শিক্ষার্থীদের
+                                        প্রশিক্ষণ শতভাগ নিশ্চিত করতে প্রতিটি
+                                        জেলা
+                                        এবং তার আওতাধীন উপজেলার ট্রেইনিং ল্যাবে
+                                        শিক্ষার্থীদের জন্য কম্পিউটার এবং
+                                        প্রয়োজনীয়
+                                        প্রশিক্ষণ উপকরণ থাকবে। এছাড়াও প্রতিটি
+                                        শিক্ষার্থীকে ক্লাসের জন্য ক্লাস মডিউল বই
+                                        সরবরাহ করা হবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/job.svg"
+                                        alt="">
+                                    <h4>জব প্লেসমেন্ট</h4>
+                                    <p class="pt-2 text-muted">উক্ত প্রকল্পের
+                                        প্রতিটি শিক্ষার্থী স্বাবলম্বী এবং
+                                        আউটসোর্সিং
+                                        মার্কেটপ্লেসে দক্ষ করে গড়ে তোলার লক্ষ্যে
+                                        প্রতিটি শিক্ষার্থীর সফলতা নিশ্চিত করা
+                                        হবে।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-t-30">
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/class-review.svg"
+                                        alt="">
+                                    <h4>ক্লাস রিভিউ</h4>
+                                    <p class="pt-2 text-muted">লার্নিং এন্ড
+                                        আর্নিং
+                                        ডেভেলপমেন্ট প্রকল্পের আওতায় জেলাসমূহের
+                                        চলমান
+                                        ক্লাসে প্রতিটি সেশন ১ ঘন্টা করে প্রতিদিন
+                                        মোট
+                                        ৪ টি সেশন পরিচালনা করা হবে। যার মধ্যে
+                                        মূল
+                                        দক্ষতা উন্নয়ন তত্ত্ব বিষয়ের জন্য
+                                        সর্বোচ্চ ২
+                                        (দুই) ঘন্টা বরাদ্দ থাকবে এবং বাকি সময়টি
+                                        তত্ত্বের উপর ভিত্তি করে ব্যবহারিক ক্লাস
+                                        নেওয়া হবে। প্রকল্প চলাকালীন সময়ের মাঝে
+                                        (দুইটি) মূল্যায়ন পরীক্ষা নেওয়া হবে এবং
+                                        সিলেবাস সম্পন্ন হওয়া শেষে একটি চূড়ান্ত
+                                        পরীক্ষা পরিচালনা করবে। মূল্যায়ন
+                                        পরীক্ষার
+                                        ফলাফলের ভিত্তিতে প্রতিটি ব্যাচ থেকে
+                                        শীর্ষ
+                                        প্রশিক্ষণার্থীদের পুরস্কৃত করা হবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 margin-t-20">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/live-class.svg"
+                                        alt="">
+                                    <h4>লাইভ ক্লাস</h4>
+                                    <p class="pt-2 text-muted">উক্ত প্রকল্পের
+                                        আওতায়
+                                        চলমান সকল ক্লাসসমূহ অনলাইন মিডিয়ার
+                                        মাধ্যমে
+                                        “লাইভ” দেখানো হবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="services-box">
+                            <div class="media">
+                                <div class="media-body ml-4">
+                                    <img src="assets/img/Icon-image/class-module.svg"
+                                        alt="">
+                                    <h4>ক্লাস মডিউল</h4>
+                                    <p class="pt-2 text-muted">প্রকল্পের আওতায় ৩
+                                        টি
+                                        পৃথক বিষয়ের উপর প্রশিক্ষণ প্রদান করা
+                                        হবে।
+                                        মডিউলগুলো নিচের লিঙ্ক থেকে ডাউনলোড করতে
+                                        ক্লিক করুন –</p>
+                                    <ul class="module-list">
+                                        <li><a href="https://ledp.ictd.gov.bd/global/custom_files/course_material/2ledp-module-graphic-design-.pdf"
+                                                target="_blank">গ্রাফিক্স
+                                                ডিজাইন</a>
+                                        </li>
+                                        <li><a href="https://ledp.ictd.gov.bd/global/custom_files/notice/113.pdf"
+                                                target="_blank">ওয়েব ডিজাইন
+                                                অ্যান্ড
+                                                ডেভেলপমেন্ট</a></li>
+                                        <li><a href="https://ledp.ictd.gov.bd/global/custom_files/course_material/31.-digital-marketing.pdf"
+                                                target="_blank">ডিজিটাল
+                                                মার্কেটিং</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="instruction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">কোর্স নিবন্ধন এবং
+                            অনলাইন পরীক্ষার নির্দেশনাবলী</h1>
+                        <div class="section-title-border margin-t-20"></div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-7 order-2 order-lg-1">
+                        <div class="features-box mt-5 mt-lg-0">
+                            <h3>ধাপ-১ঃ নিবন্ধন পদ্ধতি</h3>
+                            <ul
+                                class="text-muted list-unstyled margin-t-30 features-item-list">
+                                <li class="">অনলাইন নিবন্ধন ফর্মটি পূরণ করুন।
+                                    নিবন্ধনের সময় আপনি যে জেলায় প্রশিক্ষণ কোর্স
+                                    করতে চান তা নির্বাচন করতে হবে, কোর্সের নাম,
+                                    প্রাথমিক ব্যক্তিগত তথ্য, ইমেইল আইডি, মোবাইল
+                                    নম্বর, জাতীয় পরিচয়পত্র বা জন্ম নিবন্ধন
+                                    নম্বর,
+                                    স্থায়ী ঠিকানা এবং পাসপোর্টের আকারের ছবি
+                                    ইত্যাদি
+                                    নির্বাচন করুন</li>
+                                <li class="">তথ্যসমূহ সঠিকভাবে লিপিবদ্ধ করা হলে
+                                    "Submit Data" - বাটনে ক্লিক করুন।</li>
+                            </ul>
+                            <h3>ধাপ-২ঃ অনলাইন পরীক্ষা</h3>
+                            <ul
+                                class="text-muted list-unstyled margin-t-30 features-item-list">
+                                <li class="">সফলভাবে নিবন্ধন সম্পন্ন হলে, বেসিক
+                                    আইটি
+                                    এবং ইংরেজি বিষয়ের উপর এক সেট প্রশ্ন এবং
+                                    পরীক্ষার
+                                    সময় প্রদর্শিত হবে।</li>
+                                <li class="">পরীক্ষার নির্ধারিত সময়ের মধ্যে
+                                    নৈর্ব্যক্তিক প্রশ্ন থেকে আপনার সঠিক উত্তরটি
+                                    নির্বাচন করুন।</li>
+                                <li class="">"Finish Exam" - বাটনে ক্লিক করুন।
+                                </li>
+                                <li class="">আপনার ফলাফল প্রদর্শিত হবে।</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2">
+                        <div class="features-img mx-auto mr-lg-0">
+                            <img src="assets/img/instruction-image.png"
+                                alt="macbook image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="counter-area half-translate" id="statatics">
+            <div class="counter-area-inner bg-theme">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-lg-3 col-md-12">
+                            <div class="counter-content text-center">
+                                <h1>কোর্স পরিসংখ্যান</h1>
+                                <h4>সর্বমোট নিবন্ধন করেছে ২০২০ সালে </h4>
+                                <h2>৯৮,২৬৬</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="counter text-center">
+                                <h1 class="counter-active">৮,১০৬</h1>
+                                <h6>গ্রাফিক্স ডিজাইন</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="counter text-center">
+                                <h1 class="counter-active">৭২,৩৪৮</h1>
+                                <h6>ওয়েব ডিজাইন অ্যান্ড ডেভেলপমেন্ট</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="counter text-center">
+                                <h1 class="counter-active">১৭,৮১২</h1>
+                                <h6>ডিজিটাল মার্কেটিং</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">খবর</h1>
+                        <div class="section-title-border margin-t-20"></div>
+                    </div>
+                </div>
+
+                <div
+                    class="row margin-t-30 news-active-carousel cr-slider-dots-1 slick-initialized slick-slider slick-dotted">
+                    <div class="slick-list draggable">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 2280px; transform: translate3d(-1140px, 0px, 0px);">
+                            <div class="slick-slide" data-slick-index="0"
+                                aria-hidden="true" style="width: 380px;"
+                                tabindex="-1" role="tabpanel" id="slick-slide10"
+                                aria-describedby="slick-slide-control10">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news06.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="http://bartabazar.com/archives/130939"
+                                                        class="blog-title"
+                                                        tabindex="-1"> ঝিনাইদহে
+                                                        লার্নিং এন্ড আর্নিং
+                                                        ডেভেলপমেন্ট প্রশিক্ষণ
+                                                        বিষয়ক আলোচনা সভা</a>
+                                                </h4>
+                                                <p class="text-muted">বাংলাদেশ
+                                                    সরকারের অর্থায়নে বিনামূল্যে
+                                                    লার্নিং এন্ড আর্নিং
+                                                    ডেভেলপমেন্ট প্রকল্পের আওতায়
+                                                    প্রশিক্ষণ বিষয়ক আলোচনা সভা
+                                                    অনুষ্ঠিত হয়েছে। মঙ্গলবার
+                                                    বিকেলে জেলা প্রশাসনের
+                                                    উদ্যেগে ইজজি টেকনোলজি
+                                                    লিমিটেড এর আয়োজনে ডিসি
+                                                    অফিসের সম্মেলন কক্ষে এ
+                                                    আলোচনা সভার আয়োজন করা হয়।
+                                                </p>
+                                                <div class="mt-3">
+                                                    <a href="http://bartabazar.com/archives/130939"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="-1">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide" data-slick-index="1"
+                                aria-hidden="true" style="width: 380px;"
+                                tabindex="-1" role="tabpanel" id="slick-slide11"
+                                aria-describedby="slick-slide-control11">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news01.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="https://thebangladeshtoday.com/?p=17991"
+                                                        class="blog-title"
+                                                        tabindex="-1"> LEDP’s
+                                                        starts free training in
+                                                        Cumilla, Noakhali,
+                                                        Lakshmipur and Chandpur
+                                                    </a></h4>
+                                                <p class="text-muted">For
+                                                    creating human resources by
+                                                    enhancing youth’s skill of
+                                                    outsourcing, the Learning
+                                                    and Earning Development
+                                                    Project (LEDP Project
+                                                    Lot-10) under ICT division
+                                                    has begun its online
+                                                    registration of the
+                                                    participants from Cumilla,
+                                                    Noakhali, Lakshmipur and
+                                                    Chandpur. In this training
+                                                    program, at least 3,000
+                                                    participants of the four
+                                                    districts will get
+                                                    200-hour-long free training.
+                                                </p>
+                                                <div class="mt-3">
+                                                    <a href="https://thebangladeshtoday.com/?p=17991"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="-1">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide" data-slick-index="2"
+                                aria-hidden="true" style="width: 380px;"
+                                role="tabpanel" id="slick-slide12"
+                                aria-describedby="slick-slide-control12"
+                                tabindex="-1">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news02.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="http://www.theindependentbd.com/printversion/details/165116"
+                                                        class="blog-title"
+                                                        target="_blank"
+                                                        tabindex="-1">LEDP:
+                                                        Blessing for Unemployed
+                                                        Youths</a></h4>
+                                                <p class="text-muted">Every
+                                                    year, thousands of youths,
+                                                    most of them from lower
+                                                    middle-class families, come
+                                                    to Dhaka to pursue higher
+                                                    education or careers, but
+                                                    find it difficult to keep
+                                                    pace with the high cost of
+                                                    living in the city.While
+                                                    they are much interested to
+                                                    earn some money for their
+                                                    day to day survival, the
+                                                    dearth of part-time jobs,
+                                                    especially for students,
+                                                    makes things worse, creating
+                                                    distress among the youths.
+                                                </p>
+                                                <div class="mt-3">
+                                                    <a href="http://www.theindependentbd.com/printversion/details/165116"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="-1">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide slick-current slick-active"
+                                data-slick-index="3" aria-hidden="false"
+                                style="width: 380px;" role="tabpanel"
+                                id="slick-slide13"
+                                aria-describedby="slick-slide-control13">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news03.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="https://www.observerbd.com/details.php?id=58666"
+                                                        class="blog-title"
+                                                        target="_blank"
+                                                        tabindex="0">Learning-earning
+                                                        course opens</a></h4>
+                                                <p class="text-muted">
+                                                    NILPHAMARI, Feb 14: District
+                                                    level e-course of 'Learning
+                                                    and Earning Development
+                                                    Project (LEDP)' was
+                                                    inaugurated in the district
+                                                    on Monday afternoon.Abu
+                                                    Saleh Mohammad Musa Jangi,
+                                                    as chief guest, inaugurated
+                                                    the course at Syedpur Pilot
+                                                    Girls School and College ICT
+                                                    hall room.Among others,
+                                                    Assistant Programmer of
+                                                    Syedpur upazila Md
+                                                    Khalekuzza man, LEDP Rangpur
+                                                    Project Coordinator..</p>
+                                                <div class="mt-3">
+                                                    <a href="https://www.observerbd.com/details.php?id=58666"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="0">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide slick-active"
+                                data-slick-index="4" aria-hidden="false"
+                                style="width: 380px;" role="tabpanel"
+                                id="slick-slide14">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news04.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="https://www.dhakatribune.com/career/2017/09/20/freelancers-turn-bangladesh-hub-ict-outsourcing"
+                                                        class="blog-title"
+                                                        target="_blank"
+                                                        tabindex="0">Freelancers
+                                                        turn Bangladesh into a
+                                                        hub for ICT
+                                                        outsourcing</a></h4>
+                                                <p class="text-muted">Abu Kahar,
+                                                    a 22-year-old SSC graduate
+                                                    from Kalai in Joypurhat,
+                                                    earns Tk50,000 per
+                                                    month.While that is rare in
+                                                    itself, it is even more
+                                                    surprising given that Kahar
+                                                    comes from a low-income
+                                                    family and twice failed the
+                                                    higher secondary certificate
+                                                    education exam.But a poor
+                                                    background and a lack of an
+                                                    HSC certificate did not
+                                                    prevent Kahar from earning
+                                                    this handsome amount.</p>
+                                                <div class="mt-3">
+                                                    <a href="https://www.dhakatribune.com/career/2017/09/20/freelancers-turn-bangladesh-hub-ict-outsourcing"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="0">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide slick-active"
+                                data-slick-index="5" aria-hidden="false"
+                                style="width: 380px;" role="tabpanel"
+                                id="slick-slide15">
+                                <div>
+                                    <div class="p-2"
+                                        style="width: 100%; display: inline-block;">
+                                        <div class="blog-box margin-t-30">
+                                            <img src="assets/img/news/news05.jpg"
+                                                class="img-fluid rounded"
+                                                alt="">
+                                            <div>
+                                                <h4 class="mt-3"><a
+                                                        href="http://thedailynewnation.com/news/188020/ledp-a-blessing-for-students-employability-development"
+                                                        class="blog-title"
+                                                        target="_blank"
+                                                        tabindex="0">LEDP: A
+                                                        blessing for students'
+                                                        employability
+                                                        development</a></h4>
+                                                <p class="text-muted">Every year
+                                                    thousands of students most
+                                                    of whom are rooted in the
+                                                    lower-middle-class family
+                                                    come to Dhaka in pursuit of
+                                                    fortune find it difficult to
+                                                    keep pace with the high cost
+                                                    of living prevailed in the
+                                                    city.While they are much
+                                                    inquisitive to make some
+                                                    penny for their day-to-day
+                                                    survival, the dearth of
+                                                    part-time job especially for
+                                                    students makes things worse
+                                                    crafting distressed among
+                                                    the youths. </p>
+                                                <div class="mt-3">
+                                                    <a href="http://thedailynewnation.com/news/188020/ledp-a-blessing-for-students-employability-development"
+                                                        target="_blank"
+                                                        class="read-btn"
+                                                        tabindex="0">আরো পড়ুন<i
+                                                            class="icofont-long-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- </div></div></div></div></div><ul class="slick-dots" style="" role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="-1">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button></li><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 2" tabindex="-1">3</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 2" tabindex="0" aria-selected="true">4</button></li></ul></div> -->
+
+                                    </div>
+        </section>
+        <section class="section" id="testi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">পূর্ববর্তী
+                            শিক্ষার্থীদের মতামত</h1>
+                        <div class="section-title-border margin-t-20"></div>
+                    </div>
+                </div>
+                <div class="row margin-t-50">
+                    <div class="col-lg-4">
+                        <div class="testimonial-box margin-t-30">
+                            <div class="testimonial-decs p-4">
+                                <img src="assets/img/student/ayub.png" alt=""
+                                    class="img-fluid mx-auto d-block img-thumbnail rounded-circle mb-4">
+                                <div class="p-1">
+                                    <h5 class="text-center text-uppercase mb-3">
+                                        আইয়ুব খান</h5>
+                                    <p class="text-muted text-center mb-0">আমি
+                                        লার্নিং এন্ড আর্নিং ডেভেলপমেন্ট
+                                        প্রকল্পের
+                                        ২০১৭ সালের ট্রেইনিং সেশনে অংশগ্রহণ করি।
+                                        তারপর ৬ মাসের ট্রেইনিং করে গ্লোবাল
+                                        মার্কেটপ্লেসে কাজ করি। শুরুর দিকটা একটু
+                                        কঠিন
+                                        হলেও আস্তে আস্তে সহজ হয়ে যায়। এখন আমি
+                                        স্বাবলম্বী। তাই উক্ত প্রকল্প পরিচালনার
+                                        জন্য
+                                        বাংলাদেশ সরকারকে সাধুবাদ জানাতে চাই।
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial-box margin-t-30">
+                            <div class="testimonial-decs p-4">
+                                <img src="assets/img/student/rajans.jpg" alt=""
+                                    class="img-fluid mx-auto d-block img-thumbnail rounded-circle mb-4">
+                                <div class="p-1">
+                                    <h5 class="text-center text-uppercase mb-3">
+                                        রাজন
+                                        সরকার</h5>
+                                    <p class="text-muted text-center mb-0">
+                                        বাংলাদেশ
+                                        সরকার কর্তৃক গৃহীত লার্নিং এন্ড আর্নিং
+                                        ডেভেলপমেন্ট প্রকল্প একটি উপযোগী উদ্যোগ।
+                                        ৬
+                                        মাসের এই ট্রেইনিং প্রোগ্রাম করে আমিও
+                                        স্বাবলম্বী হতে পেরেছি। আমি উক্ত
+                                        প্রশিক্ষণ
+                                        প্রকল্পের সফলতা কামনা করি। </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial-box margin-t-30">
+                            <div class="testimonial-decs p-4">
+                                <img src="assets/img/student/faysal.jpg" alt=""
+                                    class="img-fluid mx-auto d-block img-thumbnail rounded-circle mb-4">
+                                <div class="p-1">
+                                    <h5 class="text-center text-uppercase mb-3">
+                                        ফয়সাল হাসান</h5>
+                                    <p class="text-muted text-center mb-0">
+                                        লার্নিং
+                                        এন্ড আর্নিং ডেভেলপমেন্ট প্রকল্প গ্রহণের
+                                        ফলে
+                                        প্রায় ৪০ হাজার স্বাবলম্বীর মাঝে আমিও
+                                        একজন।
+                                        আমি অদূর ভবিষ্যতে আউটসোর্সিং এর ব্যাপক
+                                        সম্ভাবনা দেখি, তাই এই প্রকল্প একটি পথ
+                                        প্রদর্শক হতে পারে।</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">জিজ্ঞাসিত
+                            প্রশ্নাবলী</h1>
+                        <div class="section-title-border margin-t-20"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="features-box faq mt-5 mt-lg-0">
+                            <ul class="faq-list">
+                                <li>
+                                    <a data-toggle="collapse" class="collapsed"
+                                        href="#faq1" aria-expanded="false">আমি
+                                        এর আগে
+                                        ওয়েব ডেভেলপমেন্টে কোর্স করেছি। এখন আর
+                                        কোনো কোর্স
+                                        করতে পারব? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq1" class="collapse"
+                                        data-parent=".faq-list" style="">
+                                        <p>উত্তরঃ রেজিস্ট্রেশন করার জন্য আপনার
+                                            জেলা এবং
+                                            পুরো নামসহ আমাদের ফেসবুকে ম্যাসেজ
+                                            করুন। </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#faq2"
+                                        class="collapsed">যারা আগে রেজিষ্ট্রেশন
+                                        করেছে
+                                        কিন্তু অসুস্থ
+                                        থাকার কারণে কিছু দিন ক্লাস করতে পারিনি,
+                                        তারা এখন
+                                        কি করবে? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq2" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ রেজিস্ট্রেশন করার জন্য আপনার
+                                            জেলা এবং
+                                            পুরো নামসহ আমাদের ফেসবুকে ম্যাসেজ
+                                            করুন।</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#faq3"
+                                        class="collapsed">যারা আগে ট্রেনিং
+                                        নিয়েছে তারা
+                                        কি আবার পারবে?
+                                        <i class="fa fa-minus-circle"></i></a>
+                                    <div id="faq3" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ রেজিস্ট্রেশন করার জন্য আপনার
+                                            জেলা এবং
+                                            পুরো নামসহ আমাদের ফেসবুকে ম্যাসেজ
+                                            করুন। </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#faq4"
+                                        class="collapsed">রেজিস্ট্রেশন সম্পন্ন
+                                        করতে
+                                        পারেন নাই। <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq4" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ রেজিস্ট্রেশন করার জন্য আপনার
+                                            জেলা এবং
+                                            পুরো নামসহ আমাদের ফেসবুকে ম্যাসেজ
+                                            করুন। </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#faq5"
+                                        class="collapsed">আমি গত কয়েক দিন আগে
+                                        রেজিষ্ট্রেশন করলাম। এখন
+                                        পর্যন্ত কোনো ফোন কল, মেসেজ, মেইল পেলাম
+                                        না <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq5" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ শীঘ্রই আপনার জেলার আওতাধীন
+                                            প্রশিক্ষণ
+                                            প্রদানকারী প্রতিষ্ঠান কর্তৃক মৌখিক
+                                            পরীক্ষার
+                                            জন্য
+                                            যোগাযোগ করা হবে। </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="collapse" href="#faq6"
+                                        class="collapsed">You are already
+                                        registered for
+                                        this course-
+                                        Related queries. <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq6" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ ১ম- “কতদিন আগে রেজিস্ট্রেশন
+                                            করেছেন?”
+                                            || যদি জানুয়ারী- ২০২০ এর আগে হয়,
+                                            তাহলে উত্তর
+                                            ০১
+                                            ||
+                                            আর পরে হলে, ২য়- “রেজিস্ট্রেশন এর পর
+                                            ১০০মার্কস এর এমসিকিউ পরীক্ষা কি
+                                            সফলভাবে শেষ
+                                            করেছেন?” ||
+                                            যদি “না” হয় তাহলে উত্তর ০১ ||
+                                            যদি “হ্যা” হয় তাহলে উত্তর ০২</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq7"
+                                        class="collapsed"
+                                        aria-expanded="false">কত দিনের
+                                        মধ্যে আনুমানিক শুরু হবে এই
+                                        কোর্সগুলো? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq7" class="collapse"
+                                        data-parent=".faq-list" style="">
+                                        <p>
+                                            উত্তরঃ প্রশিক্ষনের সময় এবং স্থান
+                                            শীঘ্রই
+                                            জানিয়ে দেয়া হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq8"
+                                        class="collapsed">Course শেষে কি
+                                        Certificate
+                                        দেই? কেও জানেন?
+                                        <i class="fa fa-minus-circle"></i></a>
+                                    <div id="faq8" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ সফলভাবে প্রশিক্ষণ শেষে তথ্য ও
+                                            যোগাযোগ
+                                            প্রযুক্তি বিভাগের পক্ষ থেকে
+                                            সার্টিফিকেট
+                                            প্রদান
+                                            করা হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq9"
+                                        class="collapsed">Last Date for apply?
+                                        <i class="fa fa-minus-circle"></i></a>
+                                    <div id="faq9" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ রেজিস্ট্রেশন এর শেষ সময় এখনো
+                                            নির্ধারণ
+                                            করা হয়নি। রেজিস্ট্রেশন করতে ভিজিট
+                                            করুনঃ
+                                            http://ledp.ictd.gov.bd/registration
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="faq">
+                            <ul class="faq-list">
+                                <li>
+                                    <a data-toggle="collapse" href="#faq10"
+                                        class="collapsed"
+                                        aria-expanded="false">এটা
+                                        সপ্তাহে কতদিন আর কয়টা থেকে কয়টা
+                                        পর্যন্ত।জানালে ভাল হত। <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq10" class="collapse"
+                                        data-parent=".faq-list" style="">
+                                        <p>উত্তরঃ প্রত্যেকটি কোর্স ৫০ দিনে ২০০
+                                            ঘন্টার
+                                            মাধ্যমে সম্পন্ন করা হবে, প্রশিক্ষণের
+                                            কার্যসূচী
+                                            পরবর্তীতে জানিয়ে দেয়া হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq11"
+                                        class="collapsed">ডিজিটাল মার্কেটিং
+                                        কোর্সের জন্য
+                                        রেজিস্ট্রেশন করেছি। এই কোর্সটি সপ্তাহে
+                                        কী কী বার
+                                        এবং কখন হবে কেউ জানালে উপকৃৃত হতাম। ৬টার
+                                        পর হলে
+                                        সুবিধা হতো চাকুরিজীবিদের জন্য। <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq11" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>উত্তরঃ প্রত্যেকটি কোর্স ৫০ দিনে ২০০
+                                            ঘন্টার
+                                            মাধ্যমে সম্পন্ন করা হবে, প্রশিক্ষণের
+                                            কার্যসূচী
+                                            পরবর্তীতে জানিয়ে দেয়া হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq12"
+                                        class="collapsed">শিক্ষাগত যোগ্যতা? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq12" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ আবেদনের জন্য নূন্যতম এইচএসসি
+                                            অথবা
+                                            সমমানের পরীক্ষায় উত্তীর্ণ এবং
+                                            কম্পিউটার
+                                            সম্পর্কে
+                                            বেসিক ধারণা থাকতে হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq13"
+                                        class="collapsed">কোর্সের ট্রেনিং টা কি
+                                        অনলাইনে
+                                        করা যাবে? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq13" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ জ্বি, লাইভ ক্লাস এর মাধ্যমে
+                                            কোর্সগুলো
+                                            অনলাইনে করতে পারবেন। লাইভ ক্লাস এর
+                                            ব্যাপারে
+                                            পরবর্তীতে ফেসবুকের মাধ্যমে জানানো
+                                            হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq14"
+                                        class="collapsed">LEDP এর অধীনে
+                                        Accounting
+                                        Software এর উপর
+                                        ট্রেনিংচালু করার পরিকল্পনা আছে? থাকলে তা
+                                        কবে
+                                        নাগাদ হতে পারে? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq14" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ জ্বি, লাইভ ক্লাস এর মাধ্যমে
+                                            কোর্সগুলো
+                                            অনলাইনে করতে পারবেন। লাইভ ক্লাস এর
+                                            ব্যাপারে
+                                            পরবর্তীতে ফেসবুকের মাধ্যমে জানানো
+                                            হবে।</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq15"
+                                        class="collapsed">আমি রেজিষ্ট্রেশন করেছি
+                                        তবে
+                                        রেজিষ্টেশন
+                                        পরবর্তী ধাপে পরিক্ষা দিতে পারি নাই
+                                        লোডশেডিং এর
+                                        কারণে, এখন আমার করণীয় কি হতে পারে? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq15" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ আপনার পূর্ণ-নাম ও জেলার নাম
+                                            এখানে
+                                            টাইপ করে দিন। আমরা আপনার
+                                            রেজিস্ট্রেশন আইডি
+                                            তা
+                                            পুনরুদ্ধার করে দিবো।
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" href="#faq16"
+                                        class="collapsed">আমি ডিজিটাল মার্কেটিং
+                                        নির্বাচন
+                                        করেছি।আমার
+                                        জেলায় যেখানে যেখানে ডিজিটাল মার্কেটিং এর
+                                        কোর্স
+                                        করানো হবে তা আমার বাসা থাকে অনেক দূরে।
+                                        গ্রাফিক
+                                        ডিজাইন এর কোর্স যেখানে করানো হবে সেটা
+                                        আমার বাসা
+                                        থেকে যেতে আমার সুবিধা হবে।এখন কথা হচ্ছে
+                                        আমি
+                                        আমারর কোর্স পরিবর্তন করতে চাচ্ছি। আমি কি
+                                        পরিবর্তন করতে পারবো? <i
+                                            class="fa fa-minus-circle"></i></a>
+                                    <div id="faq16" class="collapse"
+                                        data-parent=".faq-list">
+                                        <p>
+                                            উত্তরঃ আপনার পূর্ণ-নাম ও জেলার নাম
+                                            এখানে
+                                            টাইপ করে দিন। আমরা আপনার
+                                            রেজিস্ট্রেশন আইডি
+                                            তা
+                                            পুনরুদ্ধার করে দিবো।</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM START-->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="section-title text-center">যোগাযোগ</h1>
+                        <div class="section-title-border margin-t-20 mb-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mt-4 pt-4">
+                            <p class="mt-4"><span class="h5">ঠিকানা:</span><br>
+                                <span class="text-muted d-block mt-2">ই-১৪/এক্স,
+                                    আইসিটি টাওয়ার, আগারগাঁওশেরে-বাংলানগর,
+                                    ঢাকা-১২০৭</span></p>
+                            <p class="mt-4"><span class="h5">ইমেইল:</span><br>
+                                <span
+                                    class="text-muted d-block mt-2">info@ictd.gov.bd</span>
+                            </p>
+                            <p class="mt-4"><span class="h5">ফোন
+                                    নম্বর:</span><br>
+                                <span
+                                    class="text-muted d-block mt-2">+৮৮-০২-৮১৮১৫৬৫</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1223811583186!2d90.37223081376955!3d23.77865599361592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1719de1e3bd%3A0x12bf528f77a8dc21!2sICT%20Division%2C%20Agargaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1588760296149!5m2!1sen!2sbd"
+                            width="755" height="360" frameborder="0"
+                            style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT FORM END-->
+
+        <!--START FOOTER ALTER-->
+        <div class="footer-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="float-left pull-none">
+                            <p class="copy-rights text-muted mb-3 mb-sm-0">
+                                &copy;
+                                ২০২০ কপিরাইট তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ</p>
+                        </div>
+                        <div class="float-right pull-none ">
+                            <ul class="list-inline social m-0">
+                                <li class="list-inline-item"><a
+                                        href="https://www.facebook.com/ledp.ictd"
+                                        class="social-icon"><i
+                                            class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a
+                                        href="https://twitter.com/ledpictd"
+                                        class="social-icon"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a
+                                        href="https://www.linkedin.com/company/ledpictd"
+                                        class="social-icon"><i
+                                            class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a
+                                        href="https://www.instagram.com/ledp.ictd/"
+                                        class="social-icon"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a
+                                        href="https://www.youtube.com/ledp.ictd"
+                                        class="social-icon"><i
+                                            class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--START FOOTER ALTER-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="courseModal" tabindex="-1" role="dialog"
+            aria-labelledby="courseModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="courseModalTitle">Course
+                            Title
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>৫০ দিনে ২০০ ঘন্টা ক্লাসের মাধ্যমে উক্ত কোর্স গুলো
+                            সম্পন্ন
+                            করা হবে। সফলভাবে প্রশিক্ষণ শেষে তথ্য ও যোগাযোগ
+                            প্রযুক্তি
+                            বিভাগের পক্ষ থেকে প্রত্যেককে সার্টিফিকেট প্রদান করা
+                            হবে।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JS here -->
+        <script src="vendor/js/modernizr-3.5.0.min.js"></script>
+        <script src="vendor/js/jquery-1.12.4.min.js"></script>
+        <script src="vendor/js/popper.min.js"></script>
+        <script src="vendor/js/bootstrap.min.js"></script>
+        <script src="vendor/js/owl.carousel.min.js"></script>
+        <script src="vendor/js/isotope.pkgd.min.js"></script>
+        <script src="vendor/js/one-page-nav-min.js"></script>
+        <script src="vendor/js/slick.min.js"></script>
+        <script src="vendor/js/jquery.meanmenu.min.js"></script>
+        <script src="vendor/js/ajax-form.js"></script>
+        <script src="vendor/js/wow.min.js"></script>
+        <script src="vendor/js/jquery.scrollUp.min.js"></script>
+        <script src="vendor/js/assets/imgloaded.pkgd.min.js"></script>
+        <script src="vendor/js/jquery.magnific-popup.min.js"></script>
+        <script src="vendor/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 
 </html>
